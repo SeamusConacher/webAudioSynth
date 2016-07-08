@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Javascript based synth</title>
+		<link type="text/css" rel="stylesheet" href="synthStyle.css"/>
+		<link href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script type="text/javascript" src="synthScript.js"></script>
+		
+	</head>
+	<body>
+		<div id="synthContainer">
+			<div id="masterVolume">
+				<div class="controlLabel" id="masterVolumeLabel">
+					<h5>Master Volume</h5>
+				</div>
+				<div id="masterVolumeSlider">
+				</div>
+			</div>
+			<div class="effectContainer" id="chorus">
+				<h4>Chorus</h4>
+				<div class="controlContainer" id="chorusRate">
+					<div class="controlSlider" id="chorusRateSlider">
+					</div>
+					<div class="controlLabel" id="chorusRateLabel">
+						<h5>Rate</h5>
+					</div>
+				</div>
+				<div class="controlContainer" id="chorusDepth">
+					<div class="controlSlider" id="chorusDepthSlider">
+					</div>
+					<div class="controlLabel" id="chorusDepthLabel">
+						<h5>Depth</h5>
+					</div>
+				</div>
+				<div class="controlContainer" id="chorusDelay">
+					<div class="controlSlider" id="chorusDelaySlider">
+					</div>
+					<div class="controlLabel" id="chorusDelayLabel">
+						<h5>Delay</h5>
+					</div>
+				</div>
+				<div class="controlContainer" id="chorusFeedback">
+					<div class="controlSlider" id="chorusFeedbackSlider">
+					</div>
+					<div class="controlLabel" id="chorusFeedbackLabel">
+						<h5>Feedback</h5>
+					</div>
+				</div>
+				<div class="controlContainer" id="chorusOutput">
+					<div class="controlSlider" id="chorusOutputSlider">
+					</div>
+					<div class="controlLabel" id="chorusOutputLabel">
+						<h5>Output</h5>
+					</div>
+				</div>
+			</div>
+			<div class="effectContainer" id="delay">
+				<h4>Delay</h4>
+				<div class="controlContainer" id="delayTime">
+					<div class="controlSlider" id="delayTimeSlider">
+					</div>
+					<div class="controlLabel" id="delayTimeLabel">
+						<h5>Time</h5>
+					</div>
+				</div>
+				<div class="controlContainer" id="delayFeedback">
+					<div class="controlSlider" id="delayFeedbackSlider">
+					</div>
+					<div class="controlLabel" id="delayFeedbackLabel">
+						<h5>Feedback</h5>
+					</div>
+				</div>
+				<div class="controlContainer" id="delayOutput">
+					<div class="controlSlider" id="delayOutputSlider">
+					</div>
+					<div class="controlLabel" id="delayOutputLabel">
+						<h5>Output</h5>
+					</div>
+				</div>
+			</div>
+			<div class="effectContainer" id="vibrato">
+				<h4>Vibrato</h4>
+				<div class="controlContainer" id="vibratoRate">
+					<div class="controlSlider" id="vibratoRateSlider">
+					</div>
+					<div class="controlLabel" id="vibratoRateLabel">
+						<h5>Rate</h5>
+					</div>
+				</div>
+				<div class="controlContainer" id="vibratoDepth">
+					<div class="controlSlider" id="vibratoDepthSlider">
+					</div>
+					<div class="controlLabel" id="vibratoDepthLabel">
+						<h5>Depth</h5>
+					</div>
+				</div>
+			</div>
+			<div class="effectContainer" id="filter">
+				<h4>Filter</h4>
+				<div class="controlContainer" id="lpFreq">
+					<div class="controlSlider" id="lpFreqSlider">
+					</div>
+					<div class="controlLabel" id="lpFreqLabel">
+						<h5>Frequency</h5>
+					</div>
+				</div>
+			</div>
+			<div class="effectContainer" id="tremolo">
+				<h4>Tremolo</h4>
+				<div class="controlContainer" id="tremoloRate">
+					<div class="controlSlider" id="tremoloRateSlider">
+					</div>
+					<div class="controlLabel" id="tremoloRateLabel">
+						<h5>Rate</h5>
+					</div>
+				</div>
+				<div class="controlContainer" id="tremoloDepth">
+					<div class="controlSlider" id="tremoloDepthSlider">
+					</div>
+					<div class="controlLabel" id="tremoloDepthLabel">
+						<h5>Depth</h5>
+					</div>
+				</div>
+			</div>
+			<div id="synthLogo">
+				<h2>Monophonic Web Audio Synth</h2>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h4 {
+	color: #d75f00;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#synthContainer {
+	margin: auto;
+	width: 524px;
+	height: 400px;
+	background-color: #1c1c1c;
+	outline: 1px solid #585858;
+}
+
+#synthLogo {
+	position: relative;
+	color: #808080;
+	bottom: 1080px;
+	left: 120px;
+}
+
+.controlLabel {
+	position: relative;
+	color: #5f8700;
+	right: 40px;
+	bottom: 50px;
+	-ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+
+.controlContainer {
+	position: relative;
+	display: inline-block;
+	height: 150px;
+	width: 50px;
+	left: 30px;
+}
+
+.controlSlider {
+	position: relative;
+}
+
+.effectContainer {
+	position: relative;
+	outline: 1px solid #585858;
+	height: 150px;
+}
+
+#chorus {
+	width: 280px;
+	bottom: 409px;
+	left: 60px;
+}
+
+#delay {
+	width: 170px;
+	bottom: 581px;
+	left: 346px;
+}
+
+#vibrato {
+	width: 115px;
+	bottom: 510px;
+	left: 60px;
+}
+
+#filter {
+	width: 60px;
+	bottom: 681px;
+	left: 181px;
+}
+
+#tremolo {
+	width: 115px;
+	bottom: 853px;
+	left: 247px;
+}
+
+#masterVolume {
+	position: relative;
+	height: 392px;
+	width: 45px;
+	top: 4px;
+	left: 7px;
+	outline: 1px solid #585858;
+}
+
+#masterVolumeSlider {
+	position: relative;
+	height: 360px;
+	left: 22px;
+}
+
+#masterVolumeLabel {
+	height: 15px;
+	width: 92px;
+	top: 185px;
+	right: 35px;
+}
